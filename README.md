@@ -4,9 +4,9 @@
 [https://paulhorstmann.github.io/To-Do-List-JS/](https://paulhorstmann.github.io/To-Do-List-JS/)
 ### Features
 - change Background on Refresh
-- Save To-Do list in localstorage
+- save To-Do list in localstorage
 
 ### Jetbrains Academy
 
-This is a part of the Frontend Developer track from Jetbrains Academy
+This is a part of the Frontend Developer track from Jetbrains Academy <br>
 [https://hyperskill.org/projects/193?track=5](https://hyperskill.org/projects/193?track=5)
