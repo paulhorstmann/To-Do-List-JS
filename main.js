@@ -40,9 +40,7 @@ function addToTaskList(id, name, checked = false) {
         <div class="input-group-text">
             <input class="form-check-input mt-0" type="checkbox" ${checked ? "checked" : ""}>
         </div>
-        <span class="task form-control" style="text-decoration:${checked ? "line-through" : "none"}">
-            ${name}
-        </span>
+        <span class="task form-control" style="text-decoration:${checked ? "line-through" : "none"}">${name}</span>
         <button class="btn btn-danger delete-btn" >
             <span class="material-icons">
                 delete
