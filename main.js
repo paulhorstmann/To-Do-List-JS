@@ -6,7 +6,6 @@ let taskStore = {
     get: JSON.parse(localStorage.getItem("tasks")) || [],
     update: () => localStorage.setItem("tasks", JSON.stringify(taskStore.get)),
     add: (name, checked) => {
-        console.log(taskStore.get)
         let id = taskStore.get.length > 0 ? (taskStore.get[taskStore.get.length - 1].id + 1) : 1
         taskStore.get.push({
             id: id,
@@ -17,12 +16,14 @@ let taskStore = {
         return id;
     },
     toggleChecked: (id) => {
-        taskStore.get = taskStore.get.filter((item, index, arr) => {
-            return item.id != id;
+        taskStore.get.forEach((item, i) => {
+            if (item.id === id)
+                taskStore.get[i].checked = !taskStore.get[i].checked
         })
+        taskStore.update()
     },
     remove: (id) => {
-        taskStore.get = taskStore.get.filter((item, index, arr) => {
+        taskStore.get = taskStore.get.filter((item) => {
             return item.id != id;
         })
         taskStore.update()
