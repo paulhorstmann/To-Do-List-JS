@@ -7,12 +7,11 @@
 - save To-Do list in localstorage
 
 ### Jetbrains Academy
-
 ![Jetbrains Academy Cover](https://hyperskill.org/projects/193/cover.png)
 This is a part of the Frontend Developer track from Jetbrains Academy <br>
 [https://hyperskill.org/projects/193?track=5](https://hyperskill.org/projects/193?track=5)
 
-
+### Other Projects 
 | Project       | Repositorie                                     |
 | :------------ | :---------------------------------------------- |
 | Flashcards    | https://github.com/paulhorstmann/Flashcards     |
