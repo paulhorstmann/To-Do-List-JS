@@ -1,6 +1,6 @@
 # To-Do-List-JS
 ![Screenshot](https://github.com/paulhorstmann/To-Do-List-JS/blob/main/screenshot.png?raw=true)
-### Preview
+### Demo
 [https://paulhorstmann.github.io/To-Do-List-JS/](https://paulhorstmann.github.io/To-Do-List-JS/)
 ### Features
 - change Background on Refresh
